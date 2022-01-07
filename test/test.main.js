@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var floor = require( '@stdlib/math-base-special-floor' );
 var Float64Array = require( '@stdlib/array-float64' );
-var gnannsumkbn = require( './../lib/gnannsumkbn.js' );
+var gnannsumkbn = require( './../lib' );
 
 
 // TESTS //
