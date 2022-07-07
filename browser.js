@@ -1,3 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-var e,n;e=this,n=function(){"use strict";var e=function(e){return e!=e},n=function(e){return Math.abs(e)};return function(t,r,f,o,u){var i,d,s,a,c,l,p,b;if(d=f<0?(1-t)*f:0,s=u<0?-u:0,i=0,t<=0)return o[s]=i,o[s+u]=0,o;if(1===t||0===f)return e(r[d])?(o[s]=i,o[s+u]=0,o):(o[s]=r[d],o[s+u]=1,o);for(l=0,p=0,b=0;b<t;b++)a=r[d],!1===e(a)&&(c=i+a,n(i)>=n(a)?l+=i-c+a:l+=a-c+i,i=c,p+=1),d+=f;return o[s]=i+l,o[s+u]=p,o}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e="undefined"!=typeof globalThis?globalThis:e||self).gnannsumkbn=n();
-//# sourceMappingURL=browser.js.map
