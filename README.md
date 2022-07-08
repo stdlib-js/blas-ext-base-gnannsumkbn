@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.gnannsumkbn;
+})();
 })();
 </script>
 ```
@@ -177,6 +179,7 @@ var v = gnannsumkbn.ndarray( N, x, 2, 1, out, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -195,6 +198,7 @@ var out = new Float64Array( 2 );
 gnannsumkbn( x.length, x, 1, out, 1 );
 console.log( out );
 
+})();
 })();
 </script>
 </body>
@@ -308,7 +312,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn/tree/umd
+[@stdlib/blas/ext/base/dnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
