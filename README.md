@@ -207,7 +207,7 @@ console.log( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/blas/ext/base/dnannsumkbn`][@stdlib/blas/ext/base/dnannsumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements, ignoring NaN values and using an improved Kahan–Babuška algorithm.</span>
+-   <span class="package-name">[`@stdlib/blas-ext/base/dnannsumkbn`][@stdlib/blas/ext/base/dnannsumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements, ignoring NaN values and using an improved Kahan–Babuška algorithm.</span>
 
 </section>
 
