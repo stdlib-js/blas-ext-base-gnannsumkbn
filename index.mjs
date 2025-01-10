@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-stride2offset@v0.1.0-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@v0.2.2-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@v0.2.2-esm/index.mjs";function r(r,i,n,d,m){return function(s,r,i,n,d,m,a){var f,o,j,h,l,p,b;if(f=0,s<=0)return d[a]=f,d[a+m]=0,d;if(o=n,0===i)return t(r[o])?(d[a]=f,d[a+m]=0,d):(d[a]=r[o]*s,d[a+m]=s,d);for(l=0,p=0,b=0;b<s;b++)j=r[o],!1===t(j)&&(h=f+j,e(f)>=e(j)?l+=f-h+j:l+=j-h+f,f=h,p+=1),o+=i;return d[a]=f+l,d[a+m]=p,d}(r,i,n,s(r,n),d,m,s(2,m))}export{r as default};
+//# sourceMappingURL=index.mjs.map
