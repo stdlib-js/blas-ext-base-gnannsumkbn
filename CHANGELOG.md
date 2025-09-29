@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-05)
+## Unreleased (2025-09-29)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`9da9e46`](https://github.com/stdlib-js/stdlib/commit/9da9e464d924bae935b701593e8c7a8cc4377f5c) - **feat:** add accessor arrays support to `blas/ext/base/gnannsumkbn` [(#5023)](https://github.com/stdlib-js/stdlib/pull/5023) _(by Muhammad Haris, Athan Reines)_
 -   [`bb638df`](https://github.com/stdlib-js/stdlib/commit/bb638df38852d5ba3e341e9d607a0900a5d55723) - **refactor:** update `blas/ext/base/gnannsumkbn` to follow current project conventions [(#4631)](https://github.com/stdlib-js/stdlib/pull/4631) _(by Muhammad Haris)_
 
@@ -35,10 +37,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
