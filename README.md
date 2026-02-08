@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gnannsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@esm/index.mjs';
+import gnannsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@v0.3.1-esm/index.mjs';
 ```
 
 #### gnannsumkbn( N, x, strideX, out, strideOut )
@@ -162,7 +162,7 @@ import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoul
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gnannsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@esm/index.mjs';
+import gnannsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnannsumkbn@v0.3.1-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) > 0 ) {
