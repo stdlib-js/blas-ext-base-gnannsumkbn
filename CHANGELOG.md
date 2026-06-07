@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-06-07)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
 -   [`05aeb60`](https://github.com/stdlib-js/stdlib/commit/05aeb60441cfa5797b8d55ca9063b3fff3eccdf6) - **bench:** refactor to use string interpolation in `blas/ext/base/gnannsumkbn` [(#10599)](https://github.com/stdlib-js/stdlib/pull/10599) _(by Kamal Singh Rautela)_
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
 
